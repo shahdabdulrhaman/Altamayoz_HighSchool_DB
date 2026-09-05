@@ -19,6 +19,18 @@ This project was built to practice core database design and SQL skills, includin
 - Updating records (`UPDATE`)
 - Renaming a table (`RENAME TABLE`)
 - Commented SQL code for clarity
+ ## Part 2 – Additional Queries
+Building on the same database, a second set of queries was added to practice more advanced SQL concepts:
+- Creating new tables from query results (`CREATE TABLE ... AS SELECT`)
+- Filtering students by GPA (top performers ≥90, failing students <60)
+- Pattern matching with `LIKE` (names starting with a letter, fixed-length names)
+- Aggregate functions (`AVG`, `MAX`, `MIN`, `FLOOR`)
+- Date functions (`TIMESTAMPDIFF`) to calculate student age
+- Filtering by academic level and track
+- Counting records (`COUNT`) and selecting unique values (`DISTINCT`)
+- Text formatting (`UPPER`)
+- Updating records conditionally (`UPDATE ... WHERE`)
+- Managing MySQL safe update mode (`SQL_SAFE_UPDATES`)
 
 ##  Tools Used
 - MySQL Workbench
